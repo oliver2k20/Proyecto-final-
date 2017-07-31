@@ -10,6 +10,14 @@
     <link href="~/Content/site.css" rel="stylesheet" />
     <script src="~/lib/jquery/dist/jquery.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+    <script> 
+        $(document).ready(function () {
+            console.log("document loaded");
+        });
+
+
+    </script>
+
 </head>
 <body style="background-color:#282828">
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -30,6 +38,7 @@
                         <li><a style="color:black;" asp-controller="Home" asp-action="Index">Inicio</a></li>
 
                         <li><a style="color:black;" asp-controller="Contact" asp-action="Index">Direccion</a></li>
+                        <li><a style="color:black;" class="" data-toggle="modal" data-target="#miModal">Proximos estrenos</a></li>
                         @await Component.InvokeAsync("ShoppingCartSummary")
                     </ul>
 
@@ -60,3 +69,4 @@
         } if (d.readyState == 'complete') { l(); } else { if (w.attachEvent) { w.attachEvent('onload', l); } else { w.addEventListener('load', l, false); } }
     })();</script>
 <!-- {/literal} END JIVOSITE CODE -->
+
