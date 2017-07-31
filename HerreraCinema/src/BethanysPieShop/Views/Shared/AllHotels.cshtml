@@ -1,0 +1,22 @@
+﻿@model Hotel
+<!--Muestra todos los hoteles-->
+<div class="col-sm-6 col-lg-6 col-md-6">
+    <div class="thumbnail">
+        <img src="@Model.ImageUrl" alt="" class="img-thumbnail thumb-pic">
+        <div class="caption">
+            <h3 class="pull-right">@Model.Price.ToString("c")</h3>
+            <h3>
+                <a asp-controller="Hotel" asp-action="Details" asp-route-id="@Model.Id">@Model.Name</a>
+            </h3>
+            <p>@Model.ShortDescription</p>
+        </div>
+        <div>
+            <div class="addToCart">
+                <p class="button">
+                    <a class="btn btn-primary" asp-controller="ShoppingCart" asp-action="AddToShoppingCart"
+                       asp-route-id="@Model.Id">Comprar</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>

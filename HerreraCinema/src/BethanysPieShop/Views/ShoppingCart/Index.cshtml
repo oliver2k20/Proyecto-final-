@@ -1,0 +1,39 @@
+﻿@model ShoppingCartViewModel
+<!--Muestra los itemes del shoppingCart-->
+<h2 style="color:white">Carrito de compras</h2>
+<h4 style="color:white">Taquillas seleccionadas</h4>
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th style="color:white">Cantidad seleccionada</th>
+            <th style="color:white">Habitacion</th>
+            <th style="color:white" class="text-right">Precio</th>
+            <th  style="color:white" class="text-right">Subtotal</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var line in Model.ShoppingCart.ShoppingCartItems)
+        {
+            <tr>
+                <td class="text-center">@line.Amount</td>
+                <td class="text-left">@line.Hotel.Name</td>
+                <td class="text-right">@line.Hotel.Price.ToString("c")</td>
+                <td class="text-right">
+                    @((line.Amount * line.Hotel.Price).ToString("c"))
+                </td>
+                <td class="text-right"><a asp-controller="ShoppingCart" asp-action="DeleteFromShoppingCart" asp-route-id="@line.Hotel.Id"><span class="glyphicon glyphicon-trash"></span></a></td>
+            </tr>
+        }
+    </tbody>
+    <tfoot>
+        <tr>
+            <td  style="color:white" colspan="3" class="text-right">Total:</td>
+            <td style="color:white" class="text-right">
+                @Model.ShoppingCartTotal.ToString("c")
+            </td>
+        </tr>
+    </tfoot>
+</table>
+<div class="text-center">
+    <a class="btn btn-primary" asp-controller="Order" asp-action="Checkout">Pagar ahora</a>
+</div>

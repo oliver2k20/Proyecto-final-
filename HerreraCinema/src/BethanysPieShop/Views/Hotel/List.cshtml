@@ -1,0 +1,7 @@
+﻿@model HotelsListViewModel
+
+    <h1>@Model.CurrentCategory</h1>
+    @foreach (var hot in Model.Hotels)
+    {
+        @Html.Partial("HotelOverview", hot);
+    }

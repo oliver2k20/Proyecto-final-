@@ -1,0 +1,18 @@
+﻿@model HomeViewModel
+
+
+@await Html.PartialAsync("Carousel")
+
+<center>
+
+    <h2 style="color:white">Cartelera</h2>
+    <h4 style="color:white">Peliculas disponibles en todas nuestras sucursales</h4>
+</center>
+<div class="row">
+
+    @foreach (var hot in Model.Hotels)
+    {
+        @Html.Partial("AllHotels", hot)
+    }
+
+</div>
