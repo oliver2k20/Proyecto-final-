@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F310161F-9E93-4AE5-A86B-5D1FCFE706C8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CBD34184-5338-406A-9F3E-58E2EB3F920C}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "HotelsSteven", "src\BethanysPieShop\HotelsSteven.xproj", "{2B8C3E45-2E40-4B46-AE1D-B3BB479F581A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B8C3E45-2E40-4B46-AE1D-B3BB479F581A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B8C3E45-2E40-4B46-AE1D-B3BB479F581A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B8C3E45-2E40-4B46-AE1D-B3BB479F581A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B8C3E45-2E40-4B46-AE1D-B3BB479F581A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2B8C3E45-2E40-4B46-AE1D-B3BB479F581A} = {F310161F-9E93-4AE5-A86B-5D1FCFE706C8}
+	EndGlobalSection
+EndGlobal
