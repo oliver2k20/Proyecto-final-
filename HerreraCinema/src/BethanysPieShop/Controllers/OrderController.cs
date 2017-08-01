@@ -100,13 +100,13 @@ namespace BethanysPieShop.Controllers
                     var image = builder.LinkedResources.Add(_config.WebRootPath+ hotel.ImageUrl);
                     //Esto consigue el id que generara la imagen
                     image.ContentId = MimeUtils.GenerateMessageId();
-                    sb.AppendLine("<fieldset>");
+                  
                     sb.AppendLine($"<p><strong>Película</strong> {hotel.Name}</p>");
-                    sb.AppendLine($"<p><strong>Precio de la taquilla:</strong> {hotel.Price}$USD</p>");
+                    sb.AppendLine($"<p><strong>Precio de la taquilla: RD$</strong> {hotel.Price}</p>");
                     sb.AppendLine($"<p><strong>Descripción:</strong> {hotel.LongDescription}</p>");
                     sb.AppendLine($"<p><strong> cantidad:</strong> {item.Amount}</p>");
                     sb.AppendLine(String.Format(@"<img src=""cid:{0}"">", image.ContentId));
-                    sb.AppendLine("</fieldset>");
+                    sb.AppendLine("<hr>");
                 }
                 //Aqui establecemos el htmlBody como todo el string concatenado
                 builder.HtmlBody = sb.ToString();
