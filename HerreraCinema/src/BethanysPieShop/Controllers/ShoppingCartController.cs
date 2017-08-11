@@ -50,7 +50,7 @@ namespace BethanysPieShop.Controllers
             {
                 _shoppingCart.AddToCart(selectedRoom, 1);
             }
-            return RedirectToAction("Index");
+            return RedirectToAction("/");
         }
         public RedirectToActionResult DeleteFromShoppingCart(int id)
         {
@@ -58,6 +58,7 @@ namespace BethanysPieShop.Controllers
             if (selectedRoom != null)
             {
                 _shoppingCart.RemoveFromCart(selectedRoom);
+
             }
             return RedirectToAction("Index");
         }

@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace BethanysPieShop.ViewModels
 {
     /// <summary>
-    /// modelo de vista para mostrar los Hoteles
+    /// modelo de vista para mostrar las taquillas
     /// </summary>
     public class HotelsListViewModel
     {

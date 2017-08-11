@@ -10401,10 +10401,10 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Oliver\\Desktop\\HerreraCinema\\src\\BethanysPieShop\\BethanysPieShop.csproj",
+      "projectUniqueName": "C:\\Users\\Oliver\\Desktop\\Proyecto-final--master\\HerreraCinema\\src\\BethanysPieShop\\BethanysPieShop.csproj",
       "projectName": "BethanysPieShop",
-      "projectPath": "C:\\Users\\Oliver\\Desktop\\HerreraCinema\\src\\BethanysPieShop\\BethanysPieShop.csproj",
-      "outputPath": "C:\\Users\\Oliver\\Desktop\\HerreraCinema\\src\\BethanysPieShop\\obj\\",
+      "projectPath": "C:\\Users\\Oliver\\Desktop\\Proyecto-final--master\\HerreraCinema\\src\\BethanysPieShop\\BethanysPieShop.csproj",
+      "outputPath": "C:\\Users\\Oliver\\Desktop\\Proyecto-final--master\\HerreraCinema\\src\\BethanysPieShop\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.0"

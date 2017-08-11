@@ -126,7 +126,7 @@ namespace BethanysPieShop.Models
         
 
 /// <summary>
-/// Consigue el total del carrito de la reservacion
+/// Consigue el total del carrito de la orden
 /// </summary>
 /// <returns></returns>
         public decimal GetShoppingCartTotal()

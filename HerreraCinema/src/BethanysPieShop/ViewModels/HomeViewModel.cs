@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace BethanysPieShop.ViewModels
 {
-    //Un modelo para mostrar todos los hoteles disponibles
+    //Un modelo para mostrar todos los articulos disponibles
     public class HomeViewModel
     {
         public IEnumerable<Hotel> Hotels { get; set; }

@@ -64,7 +64,7 @@ namespace BethanysPieShop.Controllers
         {
             var order = _orderRepository.getOrderById(id);
              SendMessage(order);
-            ViewBag.CheckoutCompleteMessage = "Gracias por su orden";
+            ViewBag.CheckoutCompleteMessage = "Orden realizada correctamente";
             return View();
         }
         /// <summary>

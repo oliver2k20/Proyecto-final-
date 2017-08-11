@@ -69,7 +69,7 @@ namespace BethanysPieShop.Models
         [BindNever]
         [ScaffoldColumn(false)]
         public decimal OrderTotal { get; set; }
-        //Esto no se bindeara
+        
         [BindNever]
         [ScaffoldColumn(false)]
         public DateTime OrderPlaced { get; set; }

@@ -34,3 +34,12 @@ C:\Users\Oliver\Desktop\HerreraCinema\src\BethanysPieShop\obj\Debug\netcoreapp1.
 C:\Users\Oliver\Desktop\HerreraCinema\src\BethanysPieShop\obj\Debug\netcoreapp1.0\BethanysPieShop.AssemblyInfo.cs
 C:\Users\Oliver\Desktop\HerreraCinema\src\BethanysPieShop\obj\Debug\netcoreapp1.0\BethanysPieShop.dll
 C:\Users\Oliver\Desktop\HerreraCinema\src\BethanysPieShop\obj\Debug\netcoreapp1.0\BethanysPieShop.pdb
+C:\Users\Oliver\Desktop\Proyecto-final--master\HerreraCinema\src\BethanysPieShop\bin\Debug\netcoreapp1.0\BethanysPieShop.deps.json
+C:\Users\Oliver\Desktop\Proyecto-final--master\HerreraCinema\src\BethanysPieShop\bin\Debug\netcoreapp1.0\BethanysPieShop.runtimeconfig.json
+C:\Users\Oliver\Desktop\Proyecto-final--master\HerreraCinema\src\BethanysPieShop\bin\Debug\netcoreapp1.0\BethanysPieShop.runtimeconfig.dev.json
+C:\Users\Oliver\Desktop\Proyecto-final--master\HerreraCinema\src\BethanysPieShop\bin\Debug\netcoreapp1.0\BethanysPieShop.dll
+C:\Users\Oliver\Desktop\Proyecto-final--master\HerreraCinema\src\BethanysPieShop\bin\Debug\netcoreapp1.0\BethanysPieShop.pdb
+C:\Users\Oliver\Desktop\Proyecto-final--master\HerreraCinema\src\BethanysPieShop\obj\Debug\netcoreapp1.0\BethanysPieShop.csprojResolveAssemblyReference.cache
+C:\Users\Oliver\Desktop\Proyecto-final--master\HerreraCinema\src\BethanysPieShop\obj\Debug\netcoreapp1.0\BethanysPieShop.AssemblyInfo.cs
+C:\Users\Oliver\Desktop\Proyecto-final--master\HerreraCinema\src\BethanysPieShop\obj\Debug\netcoreapp1.0\BethanysPieShop.dll
+C:\Users\Oliver\Desktop\Proyecto-final--master\HerreraCinema\src\BethanysPieShop\obj\Debug\netcoreapp1.0\BethanysPieShop.pdb
